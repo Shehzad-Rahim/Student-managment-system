@@ -45,7 +45,7 @@ let paymentType = await inquirer.prompt([
         name: 'payment',
         type: 'list',
         message: 'Select payment type',
-        choices: ['Cash', 'Card', 'Jazzcash', 'Bank transfer', 'Raast']
+        choices: ['Card', 'Jazzcash', 'Easy Paisa', 'Bank transfer', 'Raast']
     },
     {
         name: 'amount',
@@ -83,7 +83,7 @@ if(tutionFee === paymentAmount){
         console.log(`Student Name: ${answer.student}`);
         console.log(`Student Id: ${randomNum}`);
         console.log(`Course: ${answer.courses}`);
-        console.log(`Paid Tution Fees ${paymentAmount}`);
+        console.log(`Tution Fees: ${paymentAmount}`);
         console.log(`Balance: ${myBalance =+ paymentAmount}`);  
 
     }else{

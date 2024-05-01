@@ -1,6 +1,6 @@
 {
   "name": "sr33-student-managment-system",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple console Student managment System",
   "main": "main.js",
   "type": "module",
